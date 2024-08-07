@@ -1,0 +1,39 @@
+* {
+    color: black;
+    font: "Karla";
+}
+
+h1, h2, h3 {
+    font: "Montagu Slab";
+}
+
+.info-card {
+    background-color: gold;
+}
+
+#page-reset {
+    background-color: cornflowerblue;
+}
+
+/* Chaining selectors (other than type selectors with other type
+selectors)*/
+
+/* The element has both info-card and priority classes*/
+.info-card.priority { 
+    color: transparent;
+}
+
+/* The element has an info-card class and has the id 'first' */
+.info-card#first {
+    color: purple;
+}
+
+/* Select an element that has class 'content' if only it's ancestor
+has class 'ancestor'*/
+.ancestor .content {
+    /* Some declarations */
+}
+img.special {
+    height: auto;
+    width: 500px;
+}
